@@ -2,6 +2,7 @@ import Sidebar from "@/components/Sidebar";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Education from "@/components/Education";
 import Journey from "@/components/Journey";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
@@ -18,6 +19,7 @@ export default function Home() {
       <div className="md:pl-20">
         <Hero />
         <About />
+        <Education />
         <Journey />
         <Skills />
         <Projects />
