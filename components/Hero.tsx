@@ -112,8 +112,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.15 }}
           className="relative flex justify-center md:justify-end"
         >
-          <div className="absolute w-72 h-72 md:w-96 md:h-96 bg-gradient-to-br from-cyan-400/20 via-blue-500/15 to-purple-500/20 rounded-full blur-[90px]" />
-
+        <div className="absolute w-[450px] h-[450px] md:w-[650px] md:h-[650px] bg-gradient-to-br from-cyan-400/20 via-blue-500/15 to-purple-500/20 rounded-full blur-[120px]" />
           <Tilt
             tiltMaxAngleX={10}
             tiltMaxAngleY={10}
@@ -126,10 +125,9 @@ export default function Hero() {
             <motion.div
               animate={{ y: [0, -14, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-              className="relative w-64 h-64 md:w-80 md:h-80 rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_60px_rgba(34,211,238,0.25)]"
-            >
+              className="relative w-[320px] h-[240px] md:w-[500px] md:h-[375px] lg:w-[600px] lg:h-[450px] rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_60px_rgba(34,211,238,0.25)]"            >
               <img
-                src="/profile.png"
+                src="arunima2.png"
                 alt="Arunima Pathak"
                 className="w-full h-full object-cover"
               />
