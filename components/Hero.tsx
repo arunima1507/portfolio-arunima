@@ -89,7 +89,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 pt-2 w-full">
             <button
               onClick={() => scrollTo("#about")}
-              className="w-full sm:w-auto justify-center inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-white/15 text-white/80 text-sm font-medium hover:bg-cyan-400/10 hover:border-cyan-300/50 hover:text-cyan-200 transition-all duration-300"
+              className="w-full sm:w-auto justify-center inline-flex items-center gap-2 px-6 py-3 rounded-xl border-2 border-cyan-300/15 text-white/80 text-sm font-medium hover:bg-cyan-400/10 hover:border-cyan-300/50 hover:text-cyan-200 transition-all duration-300"
             >
               Explore
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
@@ -97,7 +97,7 @@ export default function Hero() {
 
             <button
               onClick={() => scrollTo("#contact")}
-              className="w-full sm:w-auto justify-center inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-white/15 text-white/80 text-sm font-medium hover:bg-cyan-400/10 hover:border-cyan-300/50 hover:text-cyan-200 transition-all duration-300"
+              className="w-full sm:w-auto justify-center inline-flex items-center gap-2 px-6 py-3 rounded-xl border-2 border-cyan-300/15 text-white/80 text-sm font-medium hover:bg-cyan-400/10 hover:border-cyan-300/50 hover:text-cyan-200 transition-all duration-300"
             >   
               <Mail size={16} />
               Contact

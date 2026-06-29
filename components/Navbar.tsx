@@ -15,6 +15,9 @@ const NAV_LINKS = [
   { label: "Contact", href: "#contact" },
 ];
 
+// Matches the mobile menu's exit animation duration (in ms)
+const MENU_CLOSE_DELAY = 300;
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,10 +28,25 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const handleNavClick = (href: string) => {
-    setMenuOpen(false);
+  const scrollToSection = (href: string) => {
     const el = document.querySelector(href);
-    if (el) el.scrollIntoView({ behavior: "smooth" });
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
+  const handleNavClick = (href: string) => {
+    if (menuOpen) {
+      // Mobile: close the menu first, then scroll once the
+      // collapse animation + layout shift has settled.
+      setMenuOpen(false);
+      window.setTimeout(() => {
+        scrollToSection(href);
+      }, MENU_CLOSE_DELAY);
+    } else {
+      // Desktop: no menu to close, scroll immediately.
+      scrollToSection(href);
+    }
   };
 
   return (
@@ -42,16 +60,17 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 md:px-10 h-16 flex items-center justify-between">
         <a
           href="#"
-          className="text-sm font-semibold tracking-wide text-white/90 hover:text-cyan-300 transition-colors"
+          className="text-sm font-semibold tracking-wide text-white/90 hover:text-cyan-300 transition-colors
+          "
         >
-        <Image
+          <Image
             src="/arunimanavbarsign1.png"
             alt="Arunima Pathak"
             width={220}
             height={60}
             priority
             className="h-10 w-auto object-contain hover:opacity-90 transition-opacity duration-300"
-        />        
+          />
         </a>
 
         {/* Desktop menu */}
