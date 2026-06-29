@@ -22,7 +22,7 @@ const SOCIAL_LINKS = [
   },
   {
     icon: FileText,
-    href: "/resume.pdf",
+    href: "/Arunima_Pathak_29June2026.pdf",
     label: "Resume",
   },
 ];

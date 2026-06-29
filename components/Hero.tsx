@@ -105,7 +105,7 @@ export default function Hero() {
 
             {/* Resume */}
             <a
-                href="/Arunima_Pathak_Resume.pdf"
+                href="/Arunima_Pathak_29June2026.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-cyan-400 text-[#070B17] text-sm font-semibold hover:bg-cyan-300 transition-all duration-300 shadow-[0_0_25px_rgba(34,211,238,0.35)]"
