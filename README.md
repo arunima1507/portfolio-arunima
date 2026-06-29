@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Arunima Pathak | Portfolio Website
 
-## Getting Started
+This repository contains the source code for my personal portfolio website. The website has been developed to present my academic background, technical skills, projects, leadership experiences, and extracurricular activities in a structured and interactive manner.
 
-First, run the development server:
+The portfolio is designed with a responsive and modern user interface to provide an engaging experience across desktop and mobile devices.
+
+## Live Website
+
+Website: https://portfolio-arunima-cyan.vercel.app/
+
+---
+
+## Features
+
+* Responsive design for desktop, tablet, and mobile devices
+* Smooth scrolling navigation
+* Interactive user interface with animations
+* Dedicated sections for:
+
+  * About
+  * Journey and Education
+  * Skills
+  * Projects
+  * Experience and Leadership
+  * Beyond Code
+  * Contact
+* Modern UI with glassmorphism-inspired components
+
+---
+
+## Technology Stack
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+
+### UI and Animation Libraries
+
+* Framer Motion
+* React Icons
+* Lucide React
+* React Parallax Tilt
+
+### Deployment
+
+* Vercel
+
+---
+
+## Project Structure
+
+```text
+arunima-portfolio/
+├── app/
+├── components/
+│   ├── Navbar.tsx
+│   ├── Sidebar.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Journey.tsx
+│   ├── Skills.tsx
+│   ├── Projects.tsx
+│   ├── Experience.tsx
+│   ├── BeyondCode.tsx
+│   └── Contact.tsx
+├── public/
+├── lib/
+├── next.config.ts
+├── tailwind.config.ts
+├── tsconfig.json
+└── package.json
+```
+
+---
+
+## Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/arunima1507/portfolio-arunima
+```
+
+Navigate to the project directory:
+
+```bash
+cd portfolio-arunima
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## About Me
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I am Arunima Pathak, a final-year Computer Science undergraduate at Maulana Azad National Institute of Technology (MANIT), Bhopal.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+My interests include Software Engineering, Artificial Intelligence, Machine Learning, and Full-Stack Development. Alongside technical development, I actively contribute to student communities through leadership, content strategy, and event organization.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* LinkedIn: https://linkedin.com/in/arunima-pathak/
+* GitHub: https://github.com/arunima1507
+* Email: [arunimapathak07@gmail.com](mailto:arunimapathak07@gmail.com)
+
