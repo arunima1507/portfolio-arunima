@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
-import { ArrowRight, Mail } from "lucide-react";
+import { ArrowRight, Mail, FileText } from "lucide-react";
 
 const ROLES = [
   "Software Engineer",
@@ -89,7 +89,7 @@ export default function Hero() {
           <div className="flex items-center gap-4 pt-2">
             <button
               onClick={() => scrollTo("#about")}
-              className="group inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-cyan-400 text-[#070B17] text-sm font-semibold hover:bg-cyan-300 transition-all duration-300 shadow-[0_0_25px_rgba(34,211,238,0.35)]"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-white/15 text-white/80 text-sm font-medium hover:bg-cyan-400/10 hover:border-cyan-300/50 hover:text-cyan-200 transition-all duration-300"
             >
               Explore
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
@@ -97,11 +97,22 @@ export default function Hero() {
 
             <button
               onClick={() => scrollTo("#contact")}
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-white/15 text-white/80 text-sm font-medium hover:border-cyan-300/50 hover:text-cyan-200 transition-all duration-300"
-            >
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-white/15 text-white/80 text-sm font-medium hover:bg-cyan-400/10 hover:border-cyan-300/50 hover:text-cyan-200 transition-all duration-300"
+            >   
               <Mail size={16} />
               Contact
             </button>
+
+            {/* Resume */}
+            <a
+                href="/Arunima_Pathak_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-cyan-400 text-[#070B17] text-sm font-semibold hover:bg-cyan-300 transition-all duration-300 shadow-[0_0_25px_rgba(34,211,238,0.35)]"
+            >
+                <FileText size={16} />
+                Resume
+            </a>
           </div>
         </motion.div>
 

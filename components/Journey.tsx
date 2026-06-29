@@ -3,35 +3,78 @@
 import { motion } from "framer-motion";
 
 const TIMELINE = [
-  {
-    period: "2023 - Present",
-    title: "B.Tech Computer Science",
-    org: "MANIT Bhopal",
-    description:
-      "Pursuing Bachelor's in Computer Science while exploring full-stack development, machine learning and leadership opportunities.",
-  },
-  {
-    period: "2024 - Present",
-    title: "Social Media Manager",
-    org: "IEEE Student Branch MANIT",
-    description:
-      "Managing social media strategy, content creation and outreach for one of MANIT's most active technical communities.",
-  },
-  {
-    period: "2025",
-    title: "SCEECS'25 Organizing Committee",
-    org: "IEEE MANIT",
-    description:
-      "Contributed to organizing the flagship international conference and managing communications and outreach.",
-  },
-  {
-    period: "Ongoing",
-    title: "Vocalist & Creative Enthusiast",
-    org: "Roobaroo Cultural Society",
-    description:
-      "Actively involved in music, performances and creative initiatives.",
-  },
+{
+period: "Aug 2023",
+title: "Beginning My Journey at MANIT",
+org: "MANIT Bhopal",
+description:
+"Started my Computer Science journey at MANIT Bhopal, actively exploring academics, technical domains, and opportunities beyond the classroom.",
+},
+{
+period: "Aug 2024",
+title: "Joined IEEE Student Branch MANIT",
+org: "Social Media Manager",
+description:
+"Started my journey with IEEE MANIT as a Social Media Manager, contributing to content strategy, digital outreach, formal communications, and community engagement initiatives.",
+},
+
+{
+period: "Dec 2024",
+title: "Python 3 Programming Specialization",
+org: "Coursera",
+description:
+"Completed the Python 3 Programming Specialization, strengthening my programming foundations, problem-solving abilities, and proficiency in Python development.",
+},
+
+{
+period: "Jan 2025",
+title: "First Conference Experience – SCEECS'25",
+org: "IEEE MANIT",
+description:
+"Contributed to organizing SCEECS'25, gaining valuable experience in conference operations, communications, outreach, and large-scale event management.",
+},
+
+{
+period: "Apr 2025",
+title: "IBM Machine Learning Professional Certificate",
+org: "IBM",
+description:
+"Completed IBM's Machine Learning Professional Certificate, gaining hands-on exposure to machine learning concepts, model development, and data-driven problem solving.",
+},
+
+{
+period: "Sep 2025",
+title: "Secretary – Aarambh'25",
+org: "IEEE MANIT",
+description:
+"Led Aarambh'25, IEEE MANIT's flagship volunteering initiative, coordinating teams, managing operations, and driving community outreach activities.",
+},
+
+{
+period: "Dec 2025",
+title: "Deep Learning: Concept to Application",
+org: "CEC, NIT Raipur in collaboration with MANIT Bhopal",
+description:
+"Completed an intensive hands-on deep learning program and developed the initial version of 'Face Generation using GANs', which later evolved into the AI Synthetic Identity Studio project.",
+},
+
+{
+period: "Apr 2026",
+title: "Head Content & Aarambh Coordinator",
+org: "IEEE MANIT",
+description:
+"Promoted to Head Content and Aarambh Coordinator, leading content strategy, managing teams, and overseeing communications for major IEEE initiatives and events.",
+},
+
+{
+period: "May – Jul 2026",
+title: "Summer Internship – Machine Learning & Deep Learning",
+org: "NIT Surathkal",
+description:
+"Completed a summer internship and training program on Machine Learning and Deep Learning using Python, gaining practical experience in implementing intelligent systems and deep learning models.",
+}
 ];
+
 
 export default function Journey() {
   return (

@@ -3,13 +3,14 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const NAV_LINKS = [
   { label: "About", href: "#about" },
   { label: "Education", href: "#education" },
-  { label: "Journey", href: "#journey" },
-  { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
+  { label: "Skills", href: "#skills" },
+  { label: "Journey", href: "#journey" },
   { label: "Beyond Code", href: "#beyond-code" },
   { label: "Contact", href: "#contact" },
 ];
@@ -43,7 +44,14 @@ export default function Navbar() {
           href="#"
           className="text-sm font-semibold tracking-wide text-white/90 hover:text-cyan-300 transition-colors"
         >
-          Arunima<span className="text-cyan-400">.</span>
+        <Image
+            src="/arunimanavbarsign1.png"
+            alt="Arunima Pathak"
+            width={220}
+            height={60}
+            priority
+            className="h-10 w-auto object-contain hover:opacity-90 transition-opacity duration-300"
+        />        
         </a>
 
         {/* Desktop menu */}

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GraduationCap, Code2, Brain, Users } from "lucide-react";
+import { GraduationCap, PenToolIcon, Brain, Users } from "lucide-react";
 
 const CARDS = [
   {
@@ -10,19 +10,19 @@ const CARDS = [
     subtitle: "MANIT Bhopal",
   },
   {
-    icon: Code2,
-    title: "130+ Problems",
-    subtitle: "LeetCode Solved",
-  },
-  {
     icon: Brain,
     title: "ML + Full Stack",
     subtitle: "Building intelligent products",
   },
   {
+    icon: PenToolIcon,
+    title: "Technical Communicator",
+    subtitle: "Content, reports & outreach",
+  },
+  {
     icon: Users,
-    title: "IEEE Leader",
-    subtitle: "Community & Event Management",
+    title: "Community Builder",
+    subtitle: "IEEE, conferences & outreach",
   },
 ];
 
@@ -62,7 +62,7 @@ export default function About() {
           I&apos;m Arunima Pathak, a final year Computer Science student at MANIT
           Bhopal who enjoys blending technology, creativity and leadership. From
           developing full-stack applications to exploring machine learning and
-          leading large-scale IEEE events, I love building experiences that
+          leading large-scale society college events, I love building experiences that
           create meaningful impact.
         </p>
       </motion.div>

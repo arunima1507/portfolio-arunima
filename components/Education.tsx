@@ -13,27 +13,42 @@ const EDUCATION = [
     scoreLabel: "CGPA",
     description:
       "Pursuing a Bachelor's degree in Computer Science Engineering while actively exploring full-stack development, machine learning, artificial intelligence, leadership, and community building through technical and extracurricular activities.",
-  },
+    activities: [
+        "Head Content & Aarambh Coordinator, IEEE MANIT Student Branch",
+        "Organizing Committee Member - SCEECS'25 & SCEECS'26 - (IEEE's Student Conference)",
+        "Vocalist, Roobaroo Cultural Society"
+        ]
+    },
   {
     icon: School,
     institution: "Delhi Private School, Dubai",
-    qualification: "Senior Secondary Education (Class XII)",
-    duration: "Class XII",
+    qualification: "Senior Secondary Education (CBSE)",
+    duration: "Class XII - 2023",
     score: "86.7%",
-    scoreLabel: "Score",
+    scoreLabel: "Percentage",
     description:
       "Completed senior secondary education with a strong academic foundation in science and mathematics, developing analytical and problem-solving skills.",
-  },
+    activities: [
+        "Member, School Music Club - Performed at school events and competitions.",
+        "Public Speaking & Literary Activities - Participated in speaking events and presentations.",
+        "Poetry Writing - Engaged in creative writing and literary expression.",
+    ]
+    },
   {
     icon: BookOpen,
-    institution: "South East Asian International School",
-    qualification: "Secondary Education (Class X)",
-    duration: "Class X",
+    institution: "South East Asian International School, Bengaluru",
+    qualification: "Secondary Education (ICSE)",
+    duration: "Class X - 2021",
     score: "97%",
-    scoreLabel: "Score",
+    scoreLabel: "Percentage",
     description:
       "Graduated with outstanding academic performance, demonstrating consistency, discipline, and a strong foundation across core subjects.",
-  },
+    activities: [
+        "School Topper",
+        "House Captain & Student Council Member (2 Years)",
+        "Winner - KISA Entrepreneurship Competition (Bengaluru Level)",
+        ]
+    },
 ];
 
 const containerVariants = {
@@ -117,13 +132,32 @@ export default function Education() {
                   </span>
                 </div>
 
-                <span className="text-xs font-medium text-cyan-300/70 tracking-wide">
+                <span className="text-sm font-semibold text-cyan-300/80 tracking-wide">
                   {edu.duration}
                 </span>
 
                 <p className="text-white/60 text-xs md:text-sm leading-relaxed mt-1">
-                  {edu.description}
+                  {edu.description} 
                 </p>
+                {edu.activities && (
+                    <div className="mt-5">
+                        <h4 className="text-xs uppercase tracking-[2px] text-cyan-400/80 mb-3">
+                        Activities & Involvement
+                        </h4>
+
+                        <ul className="space-y-1">
+                        {edu.activities.map((activity, idx) => (
+                            <li
+                            key={idx}
+                            className="text-sm text-white/60 flex gap-2 leading-tight"
+                            >
+                            <span className="text-cyan-400 ">•</span>
+                            <span>{activity}</span>
+                            </li>
+                        ))}
+                        </ul>
+                    </div>
+                    )}
               </div>
             </motion.div>
           );

@@ -17,11 +17,11 @@ const SKILL_GROUPS = [
   },
   {
     title: "AI / ML",
-    skills: ["PyTorch", "Scikit-learn", "Pandas", "NumPy", "Transformers"],
+    skills: ["PyTorch", "Scikit-learn", "Pandas", "NumPy", "Tensorflow"],
   },
   {
     title: "Tools",
-    skills: ["Git", "GitHub", "Supabase", "VS Code"],
+    skills: ["Git", "GitHub", "Supabase", "VS Code", "Jupyter Notebook", "Google Colab"],
   },
 ];
 

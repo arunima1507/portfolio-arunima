@@ -8,19 +8,20 @@ import { Mail, Send } from "lucide-react";
 const CONTACT_LINKS = [
   {
     icon: Mail,
-    label: "youremail@example.com",
-    href: "mailto:youremail@example.com",
+    label: "arunimapathak07@gmail.com",
+    href: "mailto:arunimapathak07@gmail.com",
   },
   {
     icon: FaLinkedin,
-    label: "linkedin.com/in/yourusername",
-    href: "https://linkedin.com/in/yourusername",
+    label: "linkedin.com/in/arunima-pathak/",
+    href: "https://linkedin.com/in/arunima-pathak/",
   },
   {
     icon: FaGithub,
-    label: "github.com/yourusername",
-    href: "https://github.com/yourusername",
+    label: "github.com/arunima1507",
+    href: "https://github.com/arunima1507",
   },
+  
 ];
 
 export default function Contact() {

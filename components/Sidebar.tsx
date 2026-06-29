@@ -12,12 +12,12 @@ const SOCIAL_LINKS = [
   },
   {
     icon: FaLinkedin,
-    href: "https://linkedin.com/in/yourusername",
+    href: "https://linkedin.com/in/arunima-pathak/",
     label: "LinkedIn",
   },
   {
     icon: Mail,
-    href: "mailto:youremail@example.com",
+    href: "mailto:arunimapathak07@gmail.com",
     label: "Email",
   },
   {
