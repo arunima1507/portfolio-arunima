@@ -63,10 +63,6 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="flex flex-col gap-6"
         >
-          <span className="text-cyan-300/90 text-sm md:text-base font-medium tracking-wide">
-            Welcome to my world ✨
-          </span>
-
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
             <span className="bg-gradient-to-r from-white via-white to-cyan-200 bg-clip-text text-transparent">
               Arunima

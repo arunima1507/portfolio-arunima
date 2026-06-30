@@ -16,7 +16,7 @@ const PROJECTS = [
       "Weather-aware suggestions",
     ],
     image: "/projects/travel-planner.png",
-    github: "https://github.com/yourusername/ai-travel-planner",
+    github: "https://github.com/arunima1507/ai_travel_planner",
     demo: "https://your-demo-link.com",
   },
   {
@@ -25,8 +25,8 @@ const PROJECTS = [
     description:
       "Generates synthetic human faces using Deep Convolutional GANs.",
     features: [],
-    image: "/projects/synthetic-studio.png",
-    github: "https://github.com/yourusername/synthetic-identity-studio",
+    image: "epoch_100.png",
+    github: "https://github.com/arunima1507/AI-Synthetic-Identity-Studio",
     demo: "",
   },
   {
@@ -36,7 +36,7 @@ const PROJECTS = [
       "Academic management dashboard for attendance, assignments and analytics.",
     features: [],
     image: "/projects/acadex.png",
-    github: "https://github.com/yourusername/acadex-dashboard",
+    github: "https://github.com/arunima1507/acadex",
     demo: "",
   },
 ];
